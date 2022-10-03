@@ -91,7 +91,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int led_status = 1;
+  int led_status = 1;  // Trang thai cua den
   while (1)
   {
 	  if(HAL_GPIO_ReadPin(Button_GPIO_Port, Button_Pin) == RESET){
